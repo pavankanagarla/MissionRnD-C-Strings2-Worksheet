@@ -24,8 +24,8 @@ char * get_sub_string(char *str, int i, int j){
 	char *result = (char*)malloc((j - i + 1) * sizeof(char));
 	while (i <= j){
 		result[counter] = str[i];
-		i++;
 		counter++;
+		i++;
 	}
     return result;
 }
